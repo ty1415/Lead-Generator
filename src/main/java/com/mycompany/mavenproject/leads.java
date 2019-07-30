@@ -38,7 +38,7 @@ public class leads
         String[] counties = {"Autauga"};
 
         //Set the departments you want to search for.
-        String[] department = {"Police", "Fire", "EMS"};
+        String[] department = {"Police", "Fire", "Ambulance"};
 
         //This nested loop first gets the counties and then searches all the departments within those counties.
         for (String county : counties) 
